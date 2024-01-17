@@ -257,6 +257,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     text-transform: initial;
     line-height: 1.8;
 }
+
+.single-about-txt .text-presentation{
+    text-align: justify;
+}
+
 .single-about-txt p {
     font-size: 16px;
     color: #999fb3;
@@ -264,6 +269,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     border-bottom: 1px solid #999fb3;
 }
 .single-about-add-info {
+    display: flex;
+    flex-direction: column;
     margin: 35px 0;
 }
 .single-about-add-info h3 {
@@ -341,12 +348,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 
 /*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
+.education-horizontal-timeline .col-sm-6 {padding:0 2px;margin-bottom: 80px;}
 
-.education-horizontal-timeline .row{
-    display: flex;
-    justify-content: space-between;
-}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
@@ -505,6 +508,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 14px;
     font-weight: 300;
     margin: 18px 0 20px;
+}
+
+.timeline-content .description{
+    text-align: justify;
 }
 .main-timeline .description {
     font-size: 14px;
